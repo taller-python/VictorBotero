@@ -1,9 +1,12 @@
-import compuertas
+from compuertas import compuertOR
+entrya = '1'
+entryb = '0'
 def test_compuertas():
+    insCompuerta = compuertOR(entrya, entryb)
+    returnTest = insCompuerta.evaluate()
+    return returnTest
 
-    entrya = '1'
-    entryb = '0'
-    
-    return compuertas.compuertOR(entrya, entryb)
-
-print (test_compuertas())
+if entrya == test_compuertas():
+    print ('iguales')
+else:
+    print ('DIFERENTES')

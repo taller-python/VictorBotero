@@ -2,3 +2,6 @@ venv
 guru99.txt
 .pytest_cache
 __pycache__
+.vscode
+compuertas_bk1.py
+compuertasbk2.py
