@@ -18,6 +18,9 @@ class compuerta(object):
     @entrance_b.setter
     def entrance_b(self,b):
         self.entrance_b = b"""
+    def evaluate(self):
+        returned_value = '0'
+        return returned_value
 
 class compuertOR(compuerta):
     """child class of compuerta"""
