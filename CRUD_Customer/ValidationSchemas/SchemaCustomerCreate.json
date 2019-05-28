@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "cedula": {
+        "type": "string"
+      },
+      "nombresapellidos": {
+        "type": "string"
+      },
+      "correo": {
+        "type": "string"
+      },
+      "cargo": {
+        "type": "string"
+      },
+      "valorhora": {
+        "type": "number"
+      },
+      "horastrabajadas": {
+        "type": "number"
+      },
+      "salariopago": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "cedula",
+      "nombresapellidos",
+      "correo",
+      "cargo",
+      "valorhora",
+      "horastrabajadas"
+    ]
+  }

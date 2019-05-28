@@ -3,7 +3,6 @@ import unittest
 from compuertas import compuertOR 
 from compuertas import compuertAND
 
-
 class compuertasTest(unittest.TestCase):
     def test_OR_1_1(self):
 

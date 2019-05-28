@@ -1,0 +1,31 @@
+{
+    "DATABASECONN_CUSTOMER":
+        {
+            "IP":"localhost",
+            "PORT":"27017",
+            "USER":"",
+            "PASSWORD":"",
+            "DB":"customer",
+            "COLLECTION":"customer"
+        },
+    "SCHEMAS_VALIDATION":
+        {
+            "PATH_INSERT":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/CRUD_Customer/ValidationSchemas",
+            "FILENAME_INSERT":"SchemaCustomerCreate.json",
+            "PATH_SELECT":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/CRUD_Customer/ValidationSchemas",
+            "FILENAME_SELECT":"SchemaCustomerSelect.json",
+            "PATH_DELETE":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/CRUD_Customer/ValidationSchemas",
+            "FILENAME_DELETE":"SchemaCustomerSelect.json"
+        },
+    "DATOS_TEST":
+        {
+            "PATH_INSERT":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/test",
+            "FILENAME_INSERT":"DatoInsertTest.json",
+            "PATH_SELECT":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/test",
+            "FILENAME_SELECT":"DatoSelectTest.json",
+            "PATH_UPDATE":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/test",
+            "FILENAME_UPDATE":"DatoUpdateTest.json",
+            "PATH_DELETE":"D:/Personal/Python/EjerciciosVictorBotero/ExercisesPythonVictorBotero/test",
+            "FILENAME_DELETE":"DatoDeleteTest.json"
+        }
+}
